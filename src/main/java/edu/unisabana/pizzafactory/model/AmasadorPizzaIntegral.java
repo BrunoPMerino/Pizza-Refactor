@@ -4,13 +4,13 @@ import edu.unisabana.pizzafactory.factory.Amasador;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class AmasadorPizzaDelgada implements Amasador {
+public class AmasadorPizzaIntegral implements Amasador {
 
     @Override
     public void amasar() {
-        Logger.getLogger(AmasadorPizzaDelgada.class.getName())
+        Logger.getLogger(AmasadorPizzaIntegral.class.getName())
                 .log(Level.INFO,
-                        "[@@] Amasando la pizza delgada con masa convencional.");
+                        "[@@] Amasando la pizza integral (harina integral, mayor elasticidad).");
 
         // CODIGO DE LLAMADO AL MICROCONTROLADOR
     }

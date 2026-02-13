@@ -4,22 +4,22 @@ import edu.unisabana.pizzafactory.factory.Moldeador;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class MoldeadorPizzaDelgada implements Moldeador {
+public class MoldeadorPizzaIntegral implements Moldeador {
 
     @Override
     public void moldearPizzaPequena() {
-        Logger.getLogger(MoldeadorPizzaDelgada.class.getName())
+        Logger.getLogger(MoldeadorPizzaIntegral.class.getName())
                 .log(Level.INFO,
-                        "[O] Moldeando pizza pequena de masa convencional.");
+                        "[O] Moldeando pizza pequena integral (base rustica).");
 
         // CODIGO DE LLAMADO AL MICROCONTROLADOR
     }
 
     @Override
     public void moldearPizzaMediana() {
-        Logger.getLogger(MoldeadorPizzaDelgada.class.getName())
+        Logger.getLogger(MoldeadorPizzaIntegral.class.getName())
                 .log(Level.INFO,
-                        "[O] Moldeando pizza mediana de masa convencional.");
+                        "[O] Moldeando pizza mediana integral (base rustica mediana).");
 
         // CODIGO DE LLAMADO AL MICROCONTROLADOR
     }
